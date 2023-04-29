@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+
+html{
+    background-image: url('./fundo-hexagonal.avif');
+    
+}
+
+
+
+
+span{
+    color: aliceblue;
+}
+
+
+
+.cabeca{
+    display:flex;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-color: black ;
+    background-color: rgb(235, 166, 64);
+    justify-content: center;
+    
+}
+
+
+.titulos{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin:10px;
+    justify-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+
+
+button{
+   display: flex;
+   
+   
+    margin-left: 2%;
+    margin-top: 5%;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(226, 149, 7);
+    
+    
+}
+
+
+a :hover{
+    background-color: rgb(238, 222, 202);
+    text-align: center;
+    color: rgb(44, 12, 230);
+}  
+
+
+
+
+p{
+    display:    flex;
+    font-size: 2.5em;
+    padding: 10px 5px;
+    
+    
+
+
+}
+

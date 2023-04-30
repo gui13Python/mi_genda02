@@ -10,8 +10,15 @@ html{
     opacity: 0.5;
     -moz-opacity: 0.5;
     -webkit-opacity: 0.8;
+    overflow-y:auto;
+    overflow-x:auto;
+    
 
     
+}
+
+textarea{
+    cursor: cell;
 }
 
 
@@ -51,14 +58,13 @@ span{
 
 
 button{
-   display: flex;
-   
-   
-    margin-left: 2%;
-    margin-top: 5%;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(226, 149, 7);
+display: flex;
+margin-left: 2%;
+margin-top: 5%;
+padding: 10px;
+text-decoration: none;
+color: rgb(226, 149, 7);
+cursor: pointer;
     
     
 }
@@ -124,15 +130,13 @@ a :hover{
 
 @media only screen and (max-width: 820px) {
     .cabeca p {
-      visibility: hidden;
+    visibility: hidden;
     }
-  }
-  
-  
-  
+}
+
     
-  
-  @media only screen and (max-width: 820px){
+
+@media only screen and (max-width: 480px){
     .card-childen   {
         margin-right:2px;
         margin-left: 2px;
@@ -143,23 +147,28 @@ a :hover{
         
         
     }
-  }
-  
-  
-  @media only screen and (max-width: 820px){
+}
+
+@media only screen and (max-width: 480px){
     .card{
         background-color: rgb(255, 255, 255);
         
     }
-  }
-  
-  @media only screen and (max-width: 820px){
+}
+
+@media only screen and (max-width: 480px){
     .bt{
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-around;
-        background-color: rgb(5, 5, 5);
         margin-right: auto;
         padding-right: 10px;
     }
-  }
+}
+
+.card-childen{
+    
+    color: rgb(3, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

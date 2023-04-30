@@ -7,6 +7,10 @@
 
 html{
     background-image: url('./fundo-hexagonal.avif');
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.8;
+
     
 }
 
@@ -23,9 +27,14 @@ span{
     display:flex;
     margin-bottom: 10px;
     padding: 10px 10px;
-    border-color: black ;
-    background-color: rgb(235, 166, 64);
-    justify-content: center;
+    justify-content: start  ;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.8;
+    position: fixed;
+    top:0;
+    left: 40%;
+
     
 }
 
@@ -64,13 +73,93 @@ a :hover{
 
 
 
-p{
+.cabeca p{
     display:    flex;
     font-size: 2.5em;
     padding: 10px 5px;
+    color: rgb(9, 123, 253) ;
     
     
 
 
 }
 
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items:start ;
+    justify-content:start;
+    background-color:rgb(244, 245, 244) ;
+    width: 200px;
+    height: 500px;
+    margin-left: 1%;
+    margin-top: 50px;
+    padding: auto;
+    text-align: center;
+    filter: alpha(opacity=50);
+        opacity: 0.5;
+        -moz-opacity: 0.5;
+        -webkit-opacity: 0.8;
+    
+}
+
+.card-childen{
+    display: flex  ;
+    flex-direction:column;
+    background-color: rgb(250, 249, 244);
+    width: 200px;
+    height: 500px;
+    
+}
+
+.section-card{
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1632772998001-cc9bf6f7c852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    width: auto;
+    height:800px;
+    
+}
+
+
+@media only screen and (max-width: 820px) {
+    .cabeca p {
+      visibility: hidden;
+    }
+  }
+  
+  
+  
+    
+  
+  @media only screen and (max-width: 820px){
+    .card-childen   {
+        margin-right:2px;
+        margin-left: 2px;
+        background-color: rgb(247, 245, 242);
+        opacity: 0.5;
+        -moz-opacity: 0.5;
+        -webkit-opacity: 0.5;
+        
+        
+    }
+  }
+  
+  
+  @media only screen and (max-width: 820px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        
+    }
+  }
+  
+  @media only screen and (max-width: 820px){
+    .bt{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(5, 5, 5);
+        margin-right: auto;
+        padding-right: 10px;
+    }
+  }
